@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  compass:
+    image: stevevega/compass
+    command: watch
+    volumes:
+      - ./../../src:/input
+
+  server:
+    image: node:8.11.3-alpine
+    working_dir: /code/js
+    volumes:
+      - ./../..:/code/js
+    ports:
+      - "8080:8080"
+    command: sh -c 'yarn install && chown -R "${SERVICE_PERMISSIONS}" /code/js && yarn start'
+
+
+
+
+

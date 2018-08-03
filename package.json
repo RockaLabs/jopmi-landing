@@ -1,0 +1,36 @@
+{
+  "name": "jopmi-landing",
+  "version": "0.0.1",
+  "description": "Jopmi Landing Page",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:RockaLabs/jopmi-landing.git"
+  },
+  "author": "Blockchain - Research Squad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pereirajs/pagina/issues"
+  },
+  "homepage": "https://github.com/pereirajs/pagina",
+  "subdomain": "pereirajs",
+  "domains": [
+    "jopmi.org",
+    "jompi.com"
+  ],
+  "engines": {
+    "node": "8.11.3"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/http-server --cors"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "http-server": "^0.11.1",
+    "node-sass": "^4.9.0",
+    "onchange": "^4.0.0"
+  }
+}
