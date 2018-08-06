@@ -82,3 +82,52 @@
 @media (max-width: map_get($screen,_xxs-max)) {
 
 }
+
+
+// Breakpoint: x >= 992 and y <= 760
+@media (min-width: map_get($screen,_lg)) and (max-height: 760px) {
+  .content {
+    .logo-jopmi {
+      margin-top: 50px;
+      margin-bottom: 30px;
+      img {
+        width: 130px;
+      }
+    }
+
+    p {
+      margin: 0 0 20px 0;
+    }
+    h1 {
+      margin: 0 0 40px 0;
+    }
+  }
+
+  .cta-buttons {
+    margin-bottom: 40px;
+  }
+}
+
+// Breakpoint: x >= 992 and y <= 760
+@media (min-width: map_get($screen,_lg)) and (max-height: 640px) {
+  .content {
+    .logo-jopmi {
+      margin-top: 50px;
+      margin-bottom: 20px;
+      img {
+        width: 130px;
+      }
+    }
+
+    p {
+      margin: 0 0 15px 0;
+    }
+    h1 {
+      margin: 0 0 20px 0;
+    }
+  }
+
+  .cta-buttons {
+    margin-bottom: 30px;
+  }
+}
