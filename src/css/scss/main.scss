@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: 'AkagiPro', 'Roboto';
+  font-family: "akagi-pro",sans-serif;;
   color: map_get($colors, _dark_blue_grey);
 
   background-image: url('../images/figures-background.svg');
@@ -33,7 +33,7 @@ h1 {
 }
 
 p {
-  font-family: 'AkagiPro', 'Roboto';
+  font-family: "akagi-pro",sans-serif;;
   font-size: 13px;
   font-weight: 600;
   font-style: normal;
