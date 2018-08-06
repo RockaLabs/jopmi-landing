@@ -1,0 +1,76 @@
+.figures {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+	.figures-left {
+    .circle {
+      position: absolute;
+      left: -140px;
+      bottom: -130px;
+      width: 350px;
+      height: 350px;
+      background-color: map_get($colors, _bruice);
+      border-radius: 100%;
+      z-index: 1;
+    }
+    .rectangle {
+      position: absolute;
+      left: 38px;
+      bottom: 0;
+      width: 346px;
+      height: 79px;
+      background-color: map_get($colors, _light_teal_two);
+      z-index: 0;
+    }
+    .doughnut {
+      position: absolute;
+      left: 227px;
+      bottom: 143px;
+      border: 35px solid map_get($colors, _wheat);
+      border-radius: 100%;
+      height: 210px;
+      width: 210px;
+      z-index: 3;
+      &:before {
+        content: '';
+        position: absolute;
+        top: -42px;
+        left: -40px;
+        width: 220px;
+        height: 100px;
+        background-color: map_get($colors, _white);
+      }
+      &:after {
+        content: '';
+        position: absolute;
+        right: -41px;
+        bottom: -35px;
+        width: 100px;
+        height: 220px;
+        background-color: map_get($colors, _white);
+      }
+    }
+	}
+  .figures-right {
+    .circle {
+      position: absolute;
+      right: 59px;
+      bottom: 46px;
+      width: 214px;
+      height: 214px;
+      background-color: map_get($colors, _peachy_pink);
+      z-index: 10;
+      border-radius: 100%;
+    }
+    .triangle {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 0;
+      height: 0;
+      border-bottom: 290px solid map_get($colors, _light_teal);
+      border-left: 304px solid transparent;
+      z-index: 11;
+    }
+  }
+}

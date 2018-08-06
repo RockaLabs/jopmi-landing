@@ -5,6 +5,7 @@
 @import "config/fonts";
 @import "config/mixings";
 
+@import "components/figures";
 @import "components/buttons";
 
 body {
@@ -58,6 +59,7 @@ a {
 .container-jopmi {
   max-width: 673px;
   margin: 0 auto;
+  z-index: 10;
   // height: 100vh;
   // display: -ms-flexbox;
   // display: -webkit-flex;
@@ -71,6 +73,7 @@ a {
 
   .side-info {
     position: absolute;
+    z-index: 20;
     p {
       color: map_get($colors, _dark_blue_grey);
       a {
