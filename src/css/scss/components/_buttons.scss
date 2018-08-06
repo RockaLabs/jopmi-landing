@@ -1,0 +1,27 @@
+.cta-buttons {
+  margin-bottom: 72px;
+  .btn {
+  	width: 261px;
+    height: 80px;
+  	border-radius: 4px;
+    line-height: 66px;
+    text-decoration: none;
+    @include browsers_support(transition, all 0.3s ease);
+
+  	&.btn-default {
+      color: map_get($colors, _dark_blue_grey);
+      background-color: map_get($colors, _white);
+    	border: solid 1px map_get($colors, _light_teal_two);
+  	}
+  	&.btn-primary {
+      color: map_get($colors, _white);
+      background-color: map_get($colors, _dark_blue_grey);
+      border: solid 1px map_get($colors, _dark_blue_grey);
+  	}
+    &:hover {
+      color: map_get($colors, _white);
+      background-color: map_get($colors, _light_teal_two);
+      border: solid 1px map_get($colors, _light_teal_two);
+    }
+  }
+}
