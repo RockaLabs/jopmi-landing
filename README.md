@@ -3,6 +3,9 @@
   <a href="https://jopmi.com">
     <img width="130" src="src/images/logo_jopmi.svg">
   </a>
+  <br/>
+  <br/>
+  <br/>
   
   [![Website online](https://img.shields.io/badge/website-online-brightgreen.svg)](https://jopmi.org/)
   [![Node Version](https://img.shields.io/badge/node-%3E%3D6.11.5-brightgreen.svg)](https://nodejs.org/en/)
