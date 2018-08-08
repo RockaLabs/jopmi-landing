@@ -1,5 +1,9 @@
 # Jopmi - The Open Donations Platform
 
+[![Website online](https://img.shields.io/badge/website-online-green.svg)](https://jopmi.org/)
+[![npm][npm]][npm-url]
+[![node][node]][node-url]
+
 ## Overview
 
 Hi there!
