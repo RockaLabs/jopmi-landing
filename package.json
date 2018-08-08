@@ -21,9 +21,13 @@
     "node": "8.11.3"
   },
   "scripts": {
-    "build:dev": "webpack --mode development",
-    "build:dev:server": "webpack-dev-server --mode development --env.mode=server",
-    "build:prod": "webpack -p --mode production"
+    "build:clean": "rm -Rf node_modules && rm -Rf dist",
+    "build:dev": "yarn && webpack --mode development --progress",
+    "build:dev:server": "yarn && webpack-dev-server --mode development --progress --env.mode=server --env.docker_server=$DOCKER_SERVER",
+    "build:prod": "yarn && webpack -p --mode production --progress",
+    "docker:build:dev": "export PERMISSIONS=$(id -u):$(id -g) && export COMMAND_SCRIPT=build:dev && docker-compose up",
+    "docker:build:dev:server": "export PERMISSIONS=$(id -u):$(id -g) && export COMMAND_SCRIPT=build:dev:server && docker-compose up",
+    "docker:build:prod": "export PERMISSIONS=$(id -u):$(id -g) && export COMMAND_SCRIPT=build:prod && docker-compose up"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",

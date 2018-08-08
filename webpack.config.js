@@ -8,11 +8,15 @@ const CleanWebPackPlugin = require('clean-webpack-plugin');
 
 module.exports = (env, argv) => {
   const devServerPort = '9000';
+  let devServerHost = 'localhost';
   let outputPublicPath = 'dist/';
   let htmlPluginPrefix = '../';
+  if (!!process.env.DOCKER_SERVER) {
+    devServerHost = '0.0.0.0';
+  }
   if (env && env.mode === 'server') {
     htmlPluginPrefix = '';
-    outputPublicPath = `http://localhost:${devServerPort}/`
+    outputPublicPath = `http://${devServerHost}:${devServerPort}/`
   }
 
   // Webpack configuration
@@ -26,6 +30,7 @@ module.exports = (env, argv) => {
       publicPath: outputPublicPath
     },
     devServer: {
+      host: devServerHost,
       port: devServerPort,
       compress: true,
       open: true
