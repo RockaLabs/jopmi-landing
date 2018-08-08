@@ -1,5 +1,7 @@
-# Jopmi - The Open Donations Platform
+
 <div align="center">
+  <h1>Jopmi - The Open Donations Platform</h1>
+  
   <a href="https://jopmi.com">
     <img width="130" src="src/images/logo_jopmi.svg">
   </a>
