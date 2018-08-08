@@ -1,10 +1,20 @@
-# Jopmi - The Open Donations Platform
 
-[![Website online](https://img.shields.io/badge/website-online-brightgreen.svg)](https://jopmi.org/)
-[![Node Version](https://img.shields.io/badge/node-%3E%3D6.11.5-brightgreen.svg)](https://nodejs.org/en/)
-[![Webpack](https://img.shields.io/badge/webpack-%3E%3D4.16.5-blue.svg)](https://www.npmjs.com/package/webpack)
-[![Docker CE](https://img.shields.io/badge/docker-estable--18.09-lightgrey.svg)](https://docs.docker.com/install/#supported-platforms)
-[![Twitter Jopmi](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/wearejopmi)
+<div align="center">
+  <h1>Jopmi - The Open Donations Platform</h1>
+  
+  <a href="https://jopmi.com">
+    <img width="130" src="src/images/logo_jopmi.svg">
+  </a>
+  <br/>
+  <br/>
+  <br/>
+  
+  [![Website online](https://img.shields.io/badge/website-online-brightgreen.svg)](https://jopmi.org/)
+  [![Node Version](https://img.shields.io/badge/node-%3E%3D6.11.5-brightgreen.svg)](https://nodejs.org/en/)
+  [![Webpack](https://img.shields.io/badge/webpack-%3E%3D4.16.5-blue.svg)](https://www.npmjs.com/package/webpack)
+  [![Docker CE](https://img.shields.io/badge/docker-estable--18.09-lightgrey.svg)](https://docs.docker.com/install/#supported-platforms)
+  [![Twitter Jopmi](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/wearejopmi)
+</div>
 
 ## Overview
 
