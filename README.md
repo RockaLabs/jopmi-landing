@@ -1,8 +1,8 @@
 # Jopmi - The Open Donations Platform
 
-[![Website online](https://img.shields.io/badge/website-online-green.svg)](https://jopmi.org/)
-[![npm][npm]][npm-url]
-[![node][node]][node-url]
+[![Website online](https://img.shields.io/badge/website-online-brightgreen.svg)](https://jopmi.org/)
+[![Node Version](https://img.shields.io/badge/node-%3E%3D6.11.5-brightgreen.svg)](https://nodejs.org/en/)
+[![Webpack](https://img.shields.io/badge/webpack-%3E%3D4.16.5-blue.svg)](https://www.npmjs.com/package/webpack)
 
 ## Overview
 
