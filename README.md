@@ -59,7 +59,7 @@ yarn docker:build:prod
 
 #### **Warning:** Problems with `node_modules` packages?
 
-Try cleaning the `nod_modules` if you have tried to install the packages without a docker, but you have tried to use them later.
+Try cleaning the `node_modules` if you have tried to install the packages without a docker, but you have tried to use them later.
 ```
 yarn build:clean
 ```
