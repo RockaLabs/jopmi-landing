@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="205px" viewBox="0 0 375 205" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>figures-background-responsive</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 546 0 546 308 0 308"></polygon>
+        <polygon id="path-3" points="0 0 546 0 546 308 0 308"></polygon>
+        <polygon id="path-5" points="0 0 546 0 546 308 0 308"></polygon>
+        <polygon id="path-7" points="0 0 546 0 546 308 0 308"></polygon>
+        <polygon id="path-9" points="0 0 546 0 546 308 0 308"></polygon>
+    </defs>
+    <g id="figures-background-responsive" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="figures-background" transform="translate(-144.000000, -98.000000)">
+            <g id="Clipped">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="a"></g>
+                <ellipse id="Oval" fill="#F9927C" fill-rule="nonzero" mask="url(#mask-2)" cx="454.570833" cy="249.68642" rx="40.5708333" ry="40.6864198"></ellipse>
+            </g>
+            <g id="Clipped">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <g id="a"></g>
+                <polygon id="Shape" fill="#88CFE1" fill-rule="nonzero" mask="url(#mask-4)" points="163 278 294.191667 278 294.191667 319.066667 163 319.066667"></polygon>
+            </g>
+            <g id="Clipped">
+                <mask id="mask-6" fill="white">
+                    <use xlink:href="#path-5"></use>
+                </mask>
+                <g id="a"></g>
+                <ellipse id="Oval" fill="#6A4374" fill-rule="nonzero" mask="url(#mask-6)" cx="166.079167" cy="289.261728" rx="64.0791667" ry="64.2617284"></ellipse>
+            </g>
+            <g id="Clipped">
+                <mask id="mask-8" fill="white">
+                    <use xlink:href="#path-7"></use>
+                </mask>
+                <g id="a"></g>
+                <polygon id="Shape" fill="#A7ECC7" fill-rule="nonzero" mask="url(#mask-8)" transform="translate(447.528395, 265.008333) rotate(90.000000) translate(-447.528395, -265.008333) " points="378.520062 190.479938 516.536728 190.479938 516.536728 339.536728"></polygon>
+            </g>
+            <g id="Clipped">
+                <mask id="mask-10" fill="white">
+                    <use xlink:href="#path-9"></use>
+                </mask>
+                <g id="a"></g>
+                <path d="M241.993764,253.426235 L235.442901,253.426235 L235.442901,240.060936 L241.993764,240.060936 C255.43143,240.060936 266.324889,228.94822 266.324889,215.239558 L266.324889,208.557099 L279.426235,208.557099 L279.426235,215.239558 C279.426235,236.329573 262.667068,253.426235 241.993764,253.426235 Z" id="Shape" fill="#FFD386" fill-rule="nonzero" mask="url(#mask-10)" transform="translate(257.434568, 230.991667) rotate(90.000000) translate(-257.434568, -230.991667) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

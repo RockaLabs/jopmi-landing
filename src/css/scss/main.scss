@@ -30,13 +30,14 @@ h1 {
   line-height: 1.21;
   letter-spacing: -1.3px;
   text-align: center;
-  strong {
-    font-weight: 600;
-  }
+}
+
+strong {
+  font-weight: 600;
 }
 
 p {
-  font-family: "akagi-pro",sans-serif;;
+  font-family: "akagi-pro",sans-serif;
   font-size: 13px;
   font-weight: 600;
   font-style: normal;
@@ -81,9 +82,6 @@ a {
     z-index: 20;
     p {
       color: map_get($colors, _dark_blue_grey);
-      a {
-        text-decoration: none;
-      }
     }
     &.left-content {
       left: -30px;
@@ -115,10 +113,6 @@ a {
   h1 {
     margin: 0 0 73px 0;
   }
-}
-
-.cta-buttons {
-  margin-bottom: 72px;
 }
 
 @import "responsive";

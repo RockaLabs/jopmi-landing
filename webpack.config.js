@@ -3,7 +3,8 @@ const HtmlPlugin = require('html-webpack-plugin');
 const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const FaviconsPlugin = require('favicons-webpack-plugin')
+const FaviconsPlugin = require('favicons-webpack-plugin');
+const CleanWebPackPlugin = require('clean-webpack-plugin');
 
 module.exports = (env, argv) => {
   const devServerPort = '9000';
@@ -26,7 +27,8 @@ module.exports = (env, argv) => {
     },
     devServer: {
       port: devServerPort,
-      compress: true
+      compress: true,
+      open: true
     },
     optimization: {
       minimizer: [
@@ -35,7 +37,7 @@ module.exports = (env, argv) => {
           parallel: true,
           sourceMap: true
         }),
-        // new OptimizeCSSAssetsPlugin({})
+        new OptimizeCSSAssetsPlugin({})
       ]
     },
     module: {
@@ -74,7 +76,12 @@ module.exports = (env, argv) => {
         },
         {
           test: /\.html$/,
-          loader: 'html-loader'
+          use: {
+            loader: 'html-loader',
+            options: {
+              minimize: false
+            }
+          }
         }
       ]
     },
@@ -121,6 +128,13 @@ module.exports = (env, argv) => {
       })
     ]
   };
+
+
+  if (argv && argv.mode === 'production') {
+    config.plugins.push(
+      new CleanWebPackPlugin(['dist'], {root:__dirname})
+    )
+  }
 
   return config
 }
