@@ -1,6 +1,6 @@
 # Jopmi - The Open Donations Platform
 
-### Overview
+## Overview
 
 Hi there!
 
@@ -13,7 +13,7 @@ Jopmi will be acting as a non for profit organization.
 We'll be live at Jopmi.com and Jopmi.org.
 
 
-### Running locally for development
+## Running locally for development
 
 #### Setup your environment
 
@@ -59,10 +59,10 @@ yarn build:clean
 ```
 
 
-### Acknowledgements
+## Acknowledgements
 
 This code is compiled using webpack 4.
 
-### License
+## License
 
 See the [LICENSE](LICENSE) file (MIT).
