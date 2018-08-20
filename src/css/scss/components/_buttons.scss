@@ -171,6 +171,12 @@
   }
 }
 
+// Breakpoint: x <= 400 and y <= 660
+@media (max-width: 370px) and (max-height: 660px) {
+  .cta-buttons {
+    margin-bottom: 36px;
+  }
+}
 
 // Breakpoint: x <= 340 and y <= 600
 @media (max-width: 340px) and (max-height: 600px) {

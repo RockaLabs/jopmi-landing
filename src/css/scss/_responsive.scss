@@ -127,11 +127,11 @@
 }
 
 // Breakpoint: x <= 400 and y <= 660
-@media (max-width: 400px) and (max-height: 660px) {
+@media (max-width: 370px) and (max-height: 660px) {
   .content {
     .logo-jopmi {
       margin-top: 40px;
-      margin-bottom: 40px;
+      margin-bottom: 36px;
     }
 
     p {
