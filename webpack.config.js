@@ -97,7 +97,7 @@ module.exports = (env, argv) => {
       new HtmlPlugin({
         filename: `${htmlPluginPrefix}index.html`,
         template: 'src/index.html',
-        hash: true,
+        hash: false,
         minify: {
           collapseWhitespace: true,
           removeComments: true,
