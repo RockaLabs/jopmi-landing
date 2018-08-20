@@ -7,13 +7,14 @@
 
 @import "components/figures";
 @import "components/buttons";
+@import "components/icons";
 
 html {
   height: 100vh;
 }
 
 body {
-  font-family: "akagi-pro",sans-serif;;
+  font-family: "akagi-pro",sans-serif;
   color: map_get($colors, _dark_blue_grey);
 
   background-image: url('../../images/figures-background.svg');

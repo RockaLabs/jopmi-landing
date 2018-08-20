@@ -66,7 +66,21 @@
     padding-right: 20px;
     padding-left: 20px;
     .side-info {
-      display: none;
+      position: relative;
+      z-index: 20;
+      p {
+        color: map_get($colors, _dark_blue_grey);
+      }
+      &.left-content {
+        left: auto;
+        top: auto;
+        @include browsers_support(transform, none);
+      }
+      &.right-content {
+        right: auto;
+        top: auto;
+        @include browsers_support(transform, none);
+      }
     }
   }
   .content {
@@ -84,6 +98,7 @@
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: normal;
+        margin-bottom: 50px;
       }
     }
     h1 {
@@ -99,7 +114,7 @@
   .content {
     .logo-jopmi {
       margin-top: 40px;
-      margin-bottom: 35px;
+      margin-bottom: 60px;
     }
 
     p {
@@ -113,7 +128,11 @@
 
 // Breakpoint: x < 575
 @media (max-width: map_get($screen,_sm-max)) {
-
+  .content {
+    .text-subtitle {
+      display: none;
+    }
+  }
 }
 
 // Breakpoint: x <= 449

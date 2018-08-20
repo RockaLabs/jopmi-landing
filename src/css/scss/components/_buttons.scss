@@ -106,7 +106,7 @@
 // Breakpoint: x <= 767
 @media (max-width: map_get($screen,_md-max)) {
   .cta-buttons {
-    margin-bottom: 32px;
+    margin-bottom: 40px;
     &.row {
       margin-right: -5px;
       margin-left: -5px;
@@ -153,17 +153,11 @@
   }
 }
 
-// Breakpoint: x >= 992 and y <= 760
-@media (min-width: map_get($screen,_lg)) and (max-height: 640px) {
-  .cta-buttons {
-    margin-bottom: 30px;
-  }
-}
 
 // Breakpoint: x <= 850 and y <= 500
 @media (max-width: 850px) and (max-height: 500px) {
   .cta-buttons {
-    margin-bottom: 32px;
+    margin-bottom: 40px;
     &.row {
       margin-right: -10px;
       margin-left: -10px;
