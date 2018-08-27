@@ -16,7 +16,7 @@
   @include transition($btn-transition);
 
   // Share hover and focus styles
-  @include hover-focus {
+  &:hover, &:focus {
     text-decoration: none;
   }
 
@@ -30,7 +30,7 @@
   &.disabled,
   &:disabled {
     opacity: $btn-disabled-opacity;
-    @include box-shadow(none);
+    box-shadow: none;
   }
 
   // Opinionated: add "hand" cursor to non-disabled .btn elements
@@ -41,10 +41,13 @@
   &:not(:disabled):not(.disabled):active,
   &:not(:disabled):not(.disabled).active {
     background-image: none;
-    @include box-shadow($btn-active-box-shadow);
+    box-shadow: $btn-active-box-shadow;
 
     &:focus {
-      @include box-shadow($btn-focus-box-shadow, $btn-active-box-shadow);
+      box-shadow: $btn-focus-box-shadow;
+    }
+    &:active {
+      box-shadow: $btn-active-box-shadow;
     }
   }
 }
